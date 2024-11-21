@@ -18,8 +18,7 @@ Packages: ggplot2, tidyr, readr
 Results:
 
 The project produces a scatter plot with a linear regression line, created using the ggplot2 package.
-![image](https://github.com/user-attachments/assets/c61c1bb3-3108-4153-995e-5ce26e4ed700)
-
+![image](https://github.com/user-attachments/assets/ec0015a7-2e19-4906-b1d7-741a765da840)
 
 Key Observations:
 
@@ -30,7 +29,7 @@ While the scatter plot highlights a general trend—wealthier countries tend to 
 Example: United States
 
 To better understand the relationship for individual countries, we can narrow the analysis to a single country, such as the United States:
-![image](https://github.com/user-attachments/assets/b66a4da6-8628-48ea-a003-e1f24a65425d)
+![image](https://github.com/user-attachments/assets/6ba5cd0c-a250-4ca8-a260-34245c95baaf)
 
 GDP per Capita Over Time (United States):
 ![image](https://github.com/user-attachments/assets/2c8aff6a-0bbc-4fe9-9822-ea724b9de1af)
