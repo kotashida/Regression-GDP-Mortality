@@ -37,25 +37,7 @@ us_data <- combined_data_long[combined_data_long$Country.Name == "United States"
 ggplot(us_data, aes(x = GDP, y = Mortality)) +
   geom_point(alpha = 0.5) +
   geom_smooth(method = "lm", se = FALSE, color = "blue") +
-  labs(title = "GDP per capita vs Infant Mortality (United States)",
+  labs(title = "Infant Mortality vs. GDP per capita (United States)",
        x = "GDP per capita, PPP (current international $)",
        y = "Mortality rate, infant (per 1,000 live births)") +
-  theme_minimal()
-
-# Create plot
-ggplot(combined_data_long, aes(x = GDP, y = Mortality)) +
-  geom_point(alpha = 0.5) +
-  geom_smooth(method = "lm", se = FALSE, color = "blue") +
-  labs(title = "GDP per capita vs Infant Mortality",
-       x = "GDP per capita, PPP (current international $)",
-       y = "Mortality rate, infant (per 1,000 live births)") +
-  theme_minimal()
-
-# Create plot of GDP per capita by year for the United States
-ggplot(us_data, aes(x = Year, y = GDP)) +
-  geom_line(color = "blue") +
-  geom_point(alpha = 0.5) +
-  labs(title = "GDP per capita by Year (United States)",
-       x = "Year",
-       y = "GDP per capita, PPP (current international $)") +
   theme_minimal()
