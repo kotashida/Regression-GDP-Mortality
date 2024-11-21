@@ -1,4 +1,5 @@
 library(ggplot2)
+library(ggpmisc)
 library(tidyr)
 library(readr)
 
@@ -34,7 +35,9 @@ combined_data_long <- na.omit(combined_data_long)
 ggplot(combined_data_long, aes(x = GDP, y = Mortality)) +
   geom_point(alpha = 0.5) +
   geom_smooth(method = "lm", se = FALSE, color = "blue") +
-  labs(title = "GDP per capita vs Infant Mortality",
+  stat_poly_eq(aes(label = paste(..eq.label.., ..rr.label.., sep = "~~~")),
+               formula = y ~ x, parse = TRUE) +
+  labs(title = "Infant Mortality vs. GDP per capita",
        x = "GDP per capita, PPP (current international $)",
        y = "Mortality rate, infant (per 1,000 live births)") +
   theme_minimal()
