@@ -18,7 +18,8 @@ Packages: ggplot2, tidyr, readr
 Results:
 
 The project produces a scatter plot with a linear regression line, created using the ggplot2 package.
-![image](https://github.com/user-attachments/assets/4d86a0f6-5a65-4a23-82e4-9d3603bedd49)
+![image](https://github.com/user-attachments/assets/c61c1bb3-3108-4153-995e-5ce26e4ed700)
+
 
 Key Observations:
 
