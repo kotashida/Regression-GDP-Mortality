@@ -13,7 +13,7 @@ Mortality rate, infant (per 1,000 live births): https://data.worldbank.org/indic
 Requirements:
 
 R (version 4.0 or later)
-Packages: ggplot2, tidyr, readr
+Packages: ggplot2, ggmisc, tidyr, readr
 
 Results:
 
